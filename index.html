@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlixVault</title>
+    <meta name="title" content="FlixVault is a movie database developed by Tyler Miller">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- JS links -->
+    <script src="./js/global.js" defer></script>
+    <script src="./js/index.js" type="module"></script>
+</head>
+<body>
+    <!-- NAV/HEADER -->
+    <header class="header">
+        <a href="./index.html" class="logo">
+            <img src="./images/logo.svg" width="140" height="32" alt="FlixVault home">
+        </a>
+
+        <div class="search-box" search-box>
+            <div class="search-wrapper" search-wrapper>
+                <input class="search-field" search-field autocomplete="off" type="text" name="search" placeholder="Search for any movie.." alt="search" aria-label="search movies">
+                <img class="leading-icon" src="./images/search.png" width="24" height="24" alt="search">
+            </div>
+
+            <button class="search-btn" search-toggler> 
+                <img src="./images/close.png" width="24" height="24" alt="close search box">
+            </button>
+        </div>
+
+        <div class="search-btn" search-toggler menu-close>
+            <img src="./images/search.png" width="24" height="24" alt="open search box">
+        </div>
+
+        <button class="menu-btn" menu-btn menu-toggler>
+            <img class="menu" src="images/menu.png" width="24" height="24" alt="open menu">
+            <img class="close" src="images/menu-close.png" width="24" height="24" alt="close menu">
+        </button>
+    </header>
+</body>
+</html>
