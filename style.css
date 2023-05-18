@@ -50,7 +50,7 @@
 
     /* SHADOW */
     --shadow-1: 0 1px 4px hsla(0, 0%, 0%, 0.75);
-    --shadow-2: 0 2px 4px hsla(350, 100%, 43%, 0.3);
+    --shadow-2: 0 2px 4px hsla(117, 100%, 43%, 0.3);
 
     /* BORDER RADIUS */
     --radius-4: 4px;
@@ -196,6 +196,7 @@ body{
     height: 100%;
     object-fit: cover;
 }
+
 .meta-list{
     display: flex;
     flex-wrap: wrap;
@@ -590,7 +591,8 @@ body{
 }
 
 .banner .btn{
-    background-color: var(--primary);
+    background-color: green;
+    border: solid 2px blue;
 }
 
 .banner .btn:is(:hover, :focus-visible){
@@ -623,7 +625,7 @@ body{
 }
 
 .slider-control .slider-item{
-    width: 100%;
+    width: 100px;
     border-radius: var(--radius-8);
     flex-shrink: 0;
     filter: brightness(0.4);
