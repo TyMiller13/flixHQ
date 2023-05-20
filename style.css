@@ -704,12 +704,12 @@ body{
     background-image: linear-gradient(0deg, hsla(250, 13%, 11%, 1), hsla(250, 13%, 11%, 0.9));
 }
 
-.movie-detail .movie-poster{
+.movie-detail, .movie-poster{
     max-width: 300px;
     width: 100%;
 }
 
-.movie-detail .heading{ 
+.movie-detail, .heading{ 
     margin-block: 24px 12px; 
 }
 
@@ -717,22 +717,23 @@ body{
     color: var(--text-color); 
 }
 
-.movie-detail .genre{
+.movie-detail, .genre, .meta-list{
     margin-block: 12px 16px; 
+    color: var(--text-color); 
 }
 
 .detail-list{
     margin-block: 24px 32px; 
 }
 
-.movie-detail .list-item{
+.movie-detail, .list-item{
   display: flex;
   align-items: flex-start;
   gap: 8px;
   margin-block-end: 12px;
 }
 
-.movie-detail .list-name{
+.movie-detail, .list-name{
   color: var(--text-color);
   min-width: 112px;
 }
