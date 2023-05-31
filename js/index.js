@@ -172,11 +172,10 @@ const addHeroSlide = function() {
     
     
         //this == slider-control
-        sliderItems[Number(this.getAttribute("slider-control"))].
-        classList.add("active");
+        sliderItems[Number(this.getAttribute("slider-control"))].classList.add("active");
         this.classList.add("active");
 
-        lastSliderItem = sliderItems[Number(this.getAttribute("slider-control"))].
+        lastSliderItem = sliderItems[Number(this.getAttribute("slider-control"))];
         lastSliderControl = this;
     }
 
